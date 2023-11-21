@@ -17,3 +17,5 @@ gitgrpahs
 Empurrando os arquivos para o git 
 comando utilizado git push
 com esse arquivo ele sobe para o git
+Git pull 
+serve para pegar a ultima versão do codigo mexido
