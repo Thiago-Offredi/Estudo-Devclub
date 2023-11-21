@@ -10,5 +10,5 @@ Untracked (U)-  nao rastreado
 Index Added (A) - adicionado area de stage - separados para ser versionado 
 2-Modified(M) Versão modificada no caso com novas alterações feitas no codigo quando salvar as alterações sai do M e vai para o A
 3- Fazendo o primeiro commit:
-
+Após fazer o commit o arquivo ainda fica no computador esperando o git push
 4-
