@@ -12,3 +12,8 @@ Index Added (A) - adicionado area de stage - separados para ser versionado
 3- Fazendo o primeiro commit:
 Após fazer o commit o arquivo ainda fica no computador esperando o git push
 4- Extensões que ajudam com o Github:
+gitleans
+gitgrpahs
+Empurrando os arquivos para o git 
+comando utilizado git push
+com esse arquivo ele sobe para o git
