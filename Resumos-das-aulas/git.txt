@@ -1,0 +1,14 @@
+=>Entendendo o Github:
+-> Logando no git de maneira local na maquina:
+1- Abrir o terminal;
+2- git config --global user.email email cadastrado no git
+3- git config --global user.name nome cadastrado no git
+4- git config --list para verificar se deu certo
+Criando repositorio no git:
+1-Source control no vscode;
+Untracked (U)-  nao rastreado
+Index Added (A) - adicionado area de stage - separados para ser versionado 
+2-Modified(M) Versão modificada no caso com novas alterações feitas no codigo quando salvar as alterações sai do M e vai para o A
+3- Fazendo o primeiro commit:
+
+4-

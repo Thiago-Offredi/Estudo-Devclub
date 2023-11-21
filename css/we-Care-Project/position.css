@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 200vw;
+    height: 200vh;
+}
+
+.div-dad{
+ height: 350px;
+ width: 350px;
+ background-color: #FF1396;
+}
+.div-son{
+    height: 150px;
+    width: 150px;
+    background-color: #FFFF00;
+
+}
+.test-red{
+    height: 180px;
+    width: 180px;
+    background-color: red;
+}
+a:active{
+    color:blue
+}
+a:hover{
+    color:red
+}
+a:visited{
+    color:green;
+}
+input:checked{
+
+color: #FF1396;
+}

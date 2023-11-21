@@ -1,0 +1,144 @@
+CSS parte 1
+
+<link rel="styleshhet" href="style.css">
+Seletores Css -->
+Tem seletor pela tag ex: h1{
+    estilos aqui dentro
+}
+seletor * {
+    significa que vai aplicar o estilo aqui dentro em toda a pagina
+}
+seletor por classe{
+representado pelo ponto (.)
+}
+seletor por id{
+    serve pra identificar um elemento representado pelo (#)
+}
+Unidades de medidas no Css -->
+absolutas:
+
+pixels - px
+inches - in
+centimentros - cm
+
+->
+Relativas é usado para responsivo
+% calcula o tamanho relativo do elemento pai;
+vw 1vw é 1% da largura da janela da pagina;
+vh 1vh 1% da altura da janela do navegador;
+em é uma unidade relativa do elemento pai;{
+    em sempre busca o valor no elemento pai
+}
+rem é uma unidade relativa ao elemento raiz {
+    vai no elemento root html ou body o que tiver sempre mais acima
+    2 rem equilave a duas vezes o valor de um elemento root ex: se o root for 16 logo o 2rem sera 32
+}
+Padding e margin ->
+Padding-> o espaçamento é de dentro para fora exemplo Hulk cresce de dentro pra fora
+margin -> serve para descolar os intenss
+
+
+/*Box-sizing*/
+Content-box - ele vai somando os valores do elemento e com isso aumentando o tamanho 
+border-box - vai acoplando dentro do container e o container nao cresce sempre sera do tamanho pre definido
+
+/*Display*/
+-Block
+como padrao o Display Block vem na div, section,p,h1,h2,ul,li,article;
+ocupa 100% da largura do elemento pai; 
+ele ocupa toda a linha sempre a linha é dele;
+altura (height) definida de acordo  com o conteudo;
+Pode-se definir height e width;
+Pode-se definir valores de margin
+-Inline
+ display in-line coloca os conteudos em uma mesma linha, em quanto tiver espaço se nao ele coloca pra baixo;
+ sempre se adapta ao conteudo, pois ele ignora altura e largura como de margim em cima e em baixo;
+ por padrao ele vem nas tags a, span,b,i
+-Inline-Block
+mistura do Inline com o Block;
+os intens ficam na mesma linha;
+pode se definir o tamanho de altura e largura e as margin
+
+
+-------------------
+-Grid
+-Flex
+
+------------------
+Css parte 2
+
+!important -->
+serve para mostrar que o estilo da tag é mais importante que os estilos setados, e sempre vai ter prioridade
+ex 
+color: red !important;
+--------------------
+/*POSITION/*
+ serve para mudar o posicionamento dos elementos
+
+ position: static (padrao da pagina) não aceita valores como top, bottom, right e left
+ position: fixed - fixa o elemento na tela (fica grudado na tela) o elemento flutua colocando os elementos menores para tras dele
+ position: sticky - age como um adesivo, fixa o elemento onde for determinado (precisa da um valor pra ele usando as propriedades quando)
+ position: relative - posição relativa a posição inicial referencia o lugar que ele esta
+ position: absolute - posição absoluta (fixa) a algum elemento ou pagina (se não tiver um elemento pai ou o pai for static ele positiona referente a pagina)_
+ (se o pai Não for static posiciona referente ao pai)
+ absolute tem duas regras- nao ter pai tambem vai para frente dos intes e fica referente a tela
+                            ter pai
+
+--> todas as vezes que cria um elemento ele vai pro canto superior esquerdo
+
+ prioridades das positions : 
+ top
+ bottom
+ left
+ right
+---------------
+Pseudo-elemento tag + :: + Pseudo-elemento
+input::placeholder - muda o estilo dentro do input placeholder
+first-line estiliza a primeira linha
+first-letter estiliza a primeira letra
+after (depois) do elemento 
+before (antes) do elemento
+propriedade
+content:""
+
+---------------------
+Pseudo-classes
+:active -> quando o elemento esta ativo ou seja clicado
+:visited -> seleciona o link que foi visitado
+:hover -> quando o mouse passa por cima
+:checked -> usado em radio/checbox/select
+enabled -> elemento esta habilitado
+disabled -> elemento esta desahabilitado button/input
+focus ->  é aplicado quando um elemento recebe foco
+read-only -> seleciona o input ou text area que são apenas leitura
+empty -> elemento que nao tem filho
+
+
+:first-child -> primeiro filho ex: primeira linha de uma ul /primneiro span de uma div
+:first-of-type -> primeiro elemento de seu tipo entre os filhos de seu elemento pai
+: last-child -> ultimo filho
+: last-of-type -> ultimo   elemento de seu tipo entre os filhos de seu elemento pai
+:not() estiliza os elementos, exceto o que esta dentro do ()
+:nth-child -> seleciona o elemento baseado na sua posição. Ex :nth-child(3)
+:nth-last-child -> seleciona o elemento baseado na sua posição, contando de trás pra frente
+---------------------
+All- para todos os dispositivos
+Braille- para dispositivos tateis
+Embossed- para dispositivos que imprimem em braille
+Handheld- para dispositivos portateis, geralmente com telas pequenas e banda limitada
+Projection- Para apresentação com pps
+Screen- para monitores ou dispositivos com telas coloridas
+Speech- para sintetizadores de voz
+print- para impressao em papel
+orientação
+portrait -> altura maior que a largura celular em pé
+landscape -> largura maior que a altura celular deitado
+
+Responsividade-->
+@media(aqui dentro entra uma condição)
+@media(){
+    o que tiver aqui dentro sera aplicado
+}
+ @media  screen and(){
+
+ }

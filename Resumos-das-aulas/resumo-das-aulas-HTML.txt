@@ -1,0 +1,103 @@
+<!-- 
+    Estudos das Tags
+<p>Tag de paragrafo</p>
+<button>TAg de botão</button>
+Estrutura de uma pagina html
+
+<!DOCTYPE html> 
+<html lang="pt-br"> define a versão do site e a linguagem 
+<head>  Configuração do site ex: fontes usadas nas paginas entre outras 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> titulo da aba do site
+</head>
+<body> parte visivel do site e tudo que esta dentro do body aparece no site
+    
+</body>
+</html>
+TAGS DE TEXTO
+h1 o numero define a importância do texto no site
+h2
+h3
+h4
+h5
+h6
+Tag de paragrafo <p> </p>
+<strong></strong> é usado para definir um termo, ou palavra importante no site deixando ele como negrito porem 
+para os mecanismos de busca eles vao entender que um termo importante
+<br> pula linha
+
+NAVEGANDO ENTRE PASTAS 
+../ pega itens de pasta acima
+./ pega itens de pastas abaixo
+
+LINKS->
+tag do link é a <a> </a>
+href -> paramentro usado para falar pra onde deve ser enviado ao cliclar no link
+target -> paramentro usado para  enviar para outra aba ao cliclar no link
+<ol> listas ordenadas aparene em numeros
+< ul>    lista nao ordenada aparece em pontos 
+<li> item por item para cada item adicionado colocar uma li
+
+
+ELEMENTOS ESTRUTURAIS:
+<div> é uma caixa que abarca outras tags em determinada parte do site
+ <span>  ajuda a pegar uma parte do texto pra ficar bem mais semantico
+    <figure> dentro da tag figure pode adicionar uma legenda a imagem usando
+        img
+        figcaption
+        quando for estilizar a imagem já dentro da tag colocar ou height ou width que assim um completa o outro automaticamente
+
+
+----Tabelas------
+<table>
+    <tr> corpo da tabela
+        <th> cabeçalho da tabela
+         <td> itens da tabela
+
+--------Vídeos------
+tag: <video src>
+    configurações da tag
+    controls controlsList nodownload não permite que baixe o video
+    autoplay - assim que pagina abre o video ja começa, porem alguns navegadores bloqueia o autoplay
+    muted o video inicia mutado
+    poster - permite por uma imagem no video a imagem só some quando o usuário aperta o play
+
+
+    <video controls>
+        <source src>
+        <source src>
+        <source src> usados para verificar as extensões pois tem navegador que nao roda determinados formatos videos por conta do formato
+        pode mudar também o tamanho da janela do video com width e height
+        
+    </video>
+
+    ------ Iframe ------
+É um site dentro de um outro site
+
+Input --
+autocomplete - auto completa suas informações um dia já digitado
+disabled - desabilita o input
+value - por o nome dentro do input
+readonly - somente leitura
+placeholder- texto pré configurado quando o input esta vazio
+label - coloca o input dentro da tag label dando um nome especifico para o input ex: endereço
+type - tipos de input
+file - arquivo
+multiple - varios arquivos
+accept - formato da arquivo que poodem ser aceitos
+quando colocar * indica que quer pegar tudo ex audio video image * 
+no input radio para selecionar mais de uma opção basta por no parametro name nomes diferentens para escolher um so nomes iguais 
+<label for ="">Rua:</label>
+consultar o arquivo test-label
+
+
+---Formulários---
+tag
+<form>
+enctype = multipart/form-data mostra pro servidor que esta indo um arquivo juntamente com os dados do formulário
+
+HTML SEMANTICO-🦖 
+
+
+-->
