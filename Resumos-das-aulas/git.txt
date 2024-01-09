@@ -37,4 +37,7 @@ uma segunda branches serve para mexer no codigo sem mexer na branch principal,
  Branch na prática -->
  a segunda branch é chamada de brach developer 
  onde podemos mexer no codigo sem atrapalhar a master
- 
+
+ Git merge -->
+ Mandando as atualizações de uma brach para a outra
+usa o codigo pull request 
