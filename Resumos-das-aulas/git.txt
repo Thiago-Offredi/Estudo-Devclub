@@ -25,6 +25,15 @@ Git em linha de comando
 2- git commit -m "aqui vai a mensagem " faz o commit
 
 3- Subindo projeto do 0(zero)_
-4-
-5-
+4- dividi o nome dos projetos por traços
+5- git push --set-upstream origin master
 6-
+
+Conceito de branches -->
+Toda vez que cria um repositorio é criada uma branches com o nome main ou master
+uma segunda branches serve para mexer no codigo sem mexer na branch principal,
+ da mesma forma que pode pegar as alterações da segunda branch e mandar para a branch master 
+
+ Branch na prática -->
+ a segunda branch é chamada de brach developer 
+ 
