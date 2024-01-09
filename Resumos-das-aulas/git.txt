@@ -23,7 +23,8 @@ serve para pegar a ultima versão do codigo mexido
 Git em linha de comando 
 1-git status mostra com o status do arquivo
 2- git commit -m "aqui vai a mensagem " faz o commit
-3-
+
+3- Subindo projeto do 0(zero)_
 4-
 5-
 6-
