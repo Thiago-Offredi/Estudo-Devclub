@@ -41,3 +41,16 @@ uma segunda branches serve para mexer no codigo sem mexer na branch principal,
  Git merge -->
  Mandando as atualizações de uma brach para a outra
 usa o codigo pull request 
+
+Criando um read-me dos projetos:
+O readme serve para dar fazer uma apresentação do seu projeto
+1- titulo do projeto
+2- Uma imagem do projeto 
+3-  sobre o projeto
+4-tecnologias usadas no projeto
+
+desafio ->
+Subir todos os projetos pro git
+criar bio do git hub
+criar read para os projetos
+git hub pages para publicar os projetos
